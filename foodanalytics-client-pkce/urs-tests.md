@@ -14,7 +14,7 @@ http://127.0.0.1:5500/#access_token=81a0672f-4a59-4a69-aa6e-fcecb6280a28&token_t
 
 Fluxo Authorization Code com PKCE com o método plain
 
-Normal Authorization Code
+Authorization Code
 http://localhost:8081/oauth/authorize?response_type=code&client_id=foodanalytics&redirect_uri=http://127.0.0.1:5500
 
 With Authorization Code with PKCE

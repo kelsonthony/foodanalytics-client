@@ -1,9 +1,10 @@
 const config = {
     clientId: "foodanalytics",
     clientSecret: "food123",
-    authorizeUrl: "http://localhost:8081/oauth/authorize",
-    tokenUrl: "http://localhost:8081/oauth/token",
-    callbackUrl: "http://127.0.0.1:5500",
+    authorizeUrl: "http://localhost:8080/oauth/authorize",
+    tokenUrl: "http://localhost:8080/oauth/token",
+    callbackUrl:
+        "http://127.0.0.1:5500/foodanalytics-client-authorizationcode/index.html",
     cozinhasUrl: "http://localhost:8080/v1/cozinhas",
 };
 
