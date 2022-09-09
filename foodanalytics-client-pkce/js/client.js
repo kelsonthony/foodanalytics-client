@@ -1,8 +1,8 @@
 const config = {
-    clientId: "foodanalyticspkce",
+    clientId: "foodanalytics",
     authorizeUrl: "http://localhost:8080/oauth/authorize",
     tokenUrl: "http://localhost:8080/oauth/token",
-    callbackUrl: "http://127.0.0.1:5500/foodanalytics-client-pkce/index.html",
+    callbackUrl: "http://127.0.0.1:5500",
     cozinhasUrl: "http://localhost:8080/v1/cozinhas",
 };
 
